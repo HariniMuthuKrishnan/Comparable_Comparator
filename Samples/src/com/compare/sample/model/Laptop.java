@@ -50,7 +50,6 @@ public class Laptop {
 		int result = 1;
 		result = prime * result + ((lapid == null) ? 0 : lapid.hashCode());
 		result = prime * result + ((lapname == null) ? 0 : lapname.hashCode());// Can be neglected when no need to
-																				// consider name
 		return result;
 	}
 
